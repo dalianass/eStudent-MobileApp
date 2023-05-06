@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FD316420E1737D6CB0491D8 /* Pods_DUNPprijava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F402824E52F47E193ED816 /* Pods_DUNPprijava.framework */; };
+		BA1BA28C29D07D400023587E /* UrlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BA28B29D07D400023587E /* UrlHelper.swift */; };
+		BA36028829DCD77600526817 /* PrijavljeniIspiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA36028729DCD77600526817 /* PrijavljeniIspiti.swift */; };
+		BA3B5FAC299E9B6600E1092D /* PrijavaIspita.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3B5FAB299E9B6600E1092D /* PrijavaIspita.swift */; };
+		BA420778299D60FB00C9883D /* DUNPprijavaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA420777299D60FB00C9883D /* DUNPprijavaApp.swift */; };
+		BA42077A299D60FB00C9883D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA420779299D60FB00C9883D /* ContentView.swift */; };
+		BA42077C299D60FC00C9883D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA42077B299D60FC00C9883D /* Assets.xcassets */; };
+		BA42077F299D60FC00C9883D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA42077E299D60FC00C9883D /* Preview Assets.xcassets */; };
+		BA420787299D611F00C9883D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA420786299D611F00C9883D /* Register.swift */; };
+		BA420789299D622A00C9883D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA420788299D622A00C9883D /* Login.swift */; };
+		BA61698729FECC07002CA159 /* DodavanjePredmeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA61698629FECC07002CA159 /* DodavanjePredmeta.swift */; };
+		BA6169892A03F34B002CA159 /* UnosOcenaSluzba.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6169882A03F34B002CA159 /* UnosOcenaSluzba.swift */; };
+		BA61698B2A03F528002CA159 /* UnosOcenaDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA61698A2A03F528002CA159 /* UnosOcenaDetailed.swift */; };
+		BA6169912A03F9D1002CA159 /* StudentPrijavaFullData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6169902A03F9D1002CA159 /* StudentPrijavaFullData.swift */; };
+		BA797CB829D5B9F30015536A /* Predmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CB729D5B9F30015536A /* Predmet.swift */; };
+		BA797CBA29D5BA230015536A /* RegisterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CB929D5BA230015536A /* RegisterInfo.swift */; };
+		BA797CBC29D5BA350015536A /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CBB29D5BA350015536A /* LoginInfo.swift */; };
+		BA797CC129D5D25F0015536A /* DodavanjeSmera.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CC029D5D25F0015536A /* DodavanjeSmera.swift */; };
+		BA797CC629D5D5CB0015536A /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CC529D5D5CB0015536A /* Placeholder.swift */; };
+		BA797CC829D5EAD50015536A /* Smer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CC729D5EAD50015536A /* Smer.swift */; };
+		BA797CCA29D73D800015536A /* Prijava.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CC929D73D800015536A /* Prijava.swift */; };
+		BA797CCD29D86A650015536A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CCC29D86A650015536A /* Services.swift */; };
+		BA797CD129D9B81F0015536A /* PrijavaIspitaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CD029D9B81F0015536A /* PrijavaIspitaInfo.swift */; };
+		BA797CD329DB7A400015536A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA797CD229DB7A400015536A /* UserSettings.swift */; };
+		BA80531B2A04ED7C00DF2B5E /* PrijavaEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80531A2A04ED7C00DF2B5E /* PrijavaEdit.swift */; };
+		BA80531D2A0508B700DF2B5E /* PregledPolozenihPredmeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80531C2A0508B700DF2B5E /* PregledPolozenihPredmeta.swift */; };
+		BA80531F2A0531D800DF2B5E /* PotvrdaRegistracija.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80531E2A0531D800DF2B5E /* PotvrdaRegistracija.swift */; };
+		BA92E42229DD9773001C1173 /* DefaultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92E42129DD9773001C1173 /* DefaultScreen.swift */; };
+		BA92E42429DDA14C001C1173 /* DefaultScreenSluzba.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92E42329DDA14C001C1173 /* DefaultScreenSluzba.swift */; };
+		BA92E42629DDA164001C1173 /* DefaultScreenStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92E42529DDA164001C1173 /* DefaultScreenStudent.swift */; };
+		BA92E42A29DDAA06001C1173 /* Smerovi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92E42929DDAA06001C1173 /* Smerovi.swift */; };
+		BA94A5DC29A41696006C2C64 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94A5DB29A41696006C2C64 /* Welcome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34FA5FA97BF80B261C729806 /* Pods-DUNPprijava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUNPprijava.debug.xcconfig"; path = "Target Support Files/Pods-DUNPprijava/Pods-DUNPprijava.debug.xcconfig"; sourceTree = "<group>"; };
+		68F402824E52F47E193ED816 /* Pods_DUNPprijava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUNPprijava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1BA28B29D07D400023587E /* UrlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlHelper.swift; sourceTree = "<group>"; };
+		BA36028729DCD77600526817 /* PrijavljeniIspiti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrijavljeniIspiti.swift; sourceTree = "<group>"; };
+		BA3B5FAB299E9B6600E1092D /* PrijavaIspita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrijavaIspita.swift; sourceTree = "<group>"; };
+		BA420774299D60FB00C9883D /* DUNPprijava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUNPprijava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA420777299D60FB00C9883D /* DUNPprijavaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUNPprijavaApp.swift; sourceTree = "<group>"; };
+		BA420779299D60FB00C9883D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA42077B299D60FC00C9883D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA42077E299D60FC00C9883D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA420786299D611F00C9883D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		BA420788299D622A00C9883D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		BA61698629FECC07002CA159 /* DodavanjePredmeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodavanjePredmeta.swift; sourceTree = "<group>"; };
+		BA6169882A03F34B002CA159 /* UnosOcenaSluzba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnosOcenaSluzba.swift; sourceTree = "<group>"; };
+		BA61698A2A03F528002CA159 /* UnosOcenaDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnosOcenaDetailed.swift; sourceTree = "<group>"; };
+		BA6169902A03F9D1002CA159 /* StudentPrijavaFullData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPrijavaFullData.swift; sourceTree = "<group>"; };
+		BA797CB729D5B9F30015536A /* Predmet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predmet.swift; sourceTree = "<group>"; };
+		BA797CB929D5BA230015536A /* RegisterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInfo.swift; sourceTree = "<group>"; };
+		BA797CBB29D5BA350015536A /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		BA797CC029D5D25F0015536A /* DodavanjeSmera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodavanjeSmera.swift; sourceTree = "<group>"; };
+		BA797CC529D5D5CB0015536A /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholder.swift; sourceTree = "<group>"; };
+		BA797CC729D5EAD50015536A /* Smer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smer.swift; sourceTree = "<group>"; };
+		BA797CC929D73D800015536A /* Prijava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prijava.swift; sourceTree = "<group>"; };
+		BA797CCC29D86A650015536A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		BA797CD029D9B81F0015536A /* PrijavaIspitaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrijavaIspitaInfo.swift; sourceTree = "<group>"; };
+		BA797CD229DB7A400015536A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		BA80531A2A04ED7C00DF2B5E /* PrijavaEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrijavaEdit.swift; sourceTree = "<group>"; };
+		BA80531C2A0508B700DF2B5E /* PregledPolozenihPredmeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregledPolozenihPredmeta.swift; sourceTree = "<group>"; };
+		BA80531E2A0531D800DF2B5E /* PotvrdaRegistracija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotvrdaRegistracija.swift; sourceTree = "<group>"; };
+		BA92E42129DD9773001C1173 /* DefaultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreen.swift; sourceTree = "<group>"; };
+		BA92E42329DDA14C001C1173 /* DefaultScreenSluzba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenSluzba.swift; sourceTree = "<group>"; };
+		BA92E42529DDA164001C1173 /* DefaultScreenStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScreenStudent.swift; sourceTree = "<group>"; };
+		BA92E42929DDAA06001C1173 /* Smerovi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smerovi.swift; sourceTree = "<group>"; };
+		BA94A5DB29A41696006C2C64 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		EACC8822B7CA98C2DA73C66B /* Pods-DUNPprijava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUNPprijava.release.xcconfig"; path = "Target Support Files/Pods-DUNPprijava/Pods-DUNPprijava.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA420771299D60FB00C9883D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD316420E1737D6CB0491D8 /* Pods_DUNPprijava.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1BA28A29D07D2A0023587E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA797CC229D5D5750015536A /* Extensions */,
+				BA1BA28B29D07D400023587E /* UrlHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA42076B299D60FB00C9883D = {
+			isa = PBXGroup;
+			children = (
+				BA797CCB29D86A4E0015536A /* Data */,
+				BA797CB629D5B9CB0015536A /* Models */,
+				BA1BA28A29D07D2A0023587E /* Helpers */,
+				BA420785299D610E00C9883D /* View */,
+				BA420776299D60FB00C9883D /* DUNPprijava */,
+				BA420775299D60FB00C9883D /* Products */,
+				C103186E683F619500938B9D /* Pods */,
+				E4A4B0D13AE070EAE7399323 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA420775299D60FB00C9883D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA420774299D60FB00C9883D /* DUNPprijava.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA420776299D60FB00C9883D /* DUNPprijava */ = {
+			isa = PBXGroup;
+			children = (
+				BA420777299D60FB00C9883D /* DUNPprijavaApp.swift */,
+				BA420779299D60FB00C9883D /* ContentView.swift */,
+				BA42077B299D60FC00C9883D /* Assets.xcassets */,
+				BA42077D299D60FC00C9883D /* Preview Content */,
+			);
+			path = DUNPprijava;
+			sourceTree = "<group>";
+		};
+		BA42077D299D60FC00C9883D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA42077E299D60FC00C9883D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA420785299D610E00C9883D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA420786299D611F00C9883D /* Register.swift */,
+				BA420788299D622A00C9883D /* Login.swift */,
+				BA3B5FAB299E9B6600E1092D /* PrijavaIspita.swift */,
+				BA94A5DB29A41696006C2C64 /* Welcome.swift */,
+				BA797CC029D5D25F0015536A /* DodavanjeSmera.swift */,
+				BA36028729DCD77600526817 /* PrijavljeniIspiti.swift */,
+				BA92E42129DD9773001C1173 /* DefaultScreen.swift */,
+				BA92E42329DDA14C001C1173 /* DefaultScreenSluzba.swift */,
+				BA92E42529DDA164001C1173 /* DefaultScreenStudent.swift */,
+				BA92E42929DDAA06001C1173 /* Smerovi.swift */,
+				BA61698629FECC07002CA159 /* DodavanjePredmeta.swift */,
+				BA6169882A03F34B002CA159 /* UnosOcenaSluzba.swift */,
+				BA61698A2A03F528002CA159 /* UnosOcenaDetailed.swift */,
+				BA80531A2A04ED7C00DF2B5E /* PrijavaEdit.swift */,
+				BA80531C2A0508B700DF2B5E /* PregledPolozenihPredmeta.swift */,
+				BA80531E2A0531D800DF2B5E /* PotvrdaRegistracija.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA797CB629D5B9CB0015536A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA797CB729D5B9F30015536A /* Predmet.swift */,
+				BA797CB929D5BA230015536A /* RegisterInfo.swift */,
+				BA797CBB29D5BA350015536A /* LoginInfo.swift */,
+				BA797CC729D5EAD50015536A /* Smer.swift */,
+				BA797CC929D73D800015536A /* Prijava.swift */,
+				BA797CD029D9B81F0015536A /* PrijavaIspitaInfo.swift */,
+				BA6169902A03F9D1002CA159 /* StudentPrijavaFullData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA797CC229D5D5750015536A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA797CC529D5D5CB0015536A /* Placeholder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA797CCB29D86A4E0015536A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BA797CCC29D86A650015536A /* Services.swift */,
+				BA797CD229DB7A400015536A /* UserSettings.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C103186E683F619500938B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34FA5FA97BF80B261C729806 /* Pods-DUNPprijava.debug.xcconfig */,
+				EACC8822B7CA98C2DA73C66B /* Pods-DUNPprijava.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4A4B0D13AE070EAE7399323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F402824E52F47E193ED816 /* Pods_DUNPprijava.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA420773299D60FB00C9883D /* DUNPprijava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA420782299D60FC00C9883D /* Build configuration list for PBXNativeTarget "DUNPprijava" */;
+			buildPhases = (
+				B2087E82E66C86E6CDC32E90 /* [CP] Check Pods Manifest.lock */,
+				BA420770299D60FB00C9883D /* Sources */,
+				BA420771299D60FB00C9883D /* Frameworks */,
+				BA420772299D60FB00C9883D /* Resources */,
+				CB216B60D1B1F5EF74DDF27F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUNPprijava;
+			productName = DUNPprijava;
+			productReference = BA420774299D60FB00C9883D /* DUNPprijava.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA42076C299D60FB00C9883D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BA420773299D60FB00C9883D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BA42076F299D60FB00C9883D /* Build configuration list for PBXProject "DUNPprijava" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA42076B299D60FB00C9883D;
+			productRefGroup = BA420775299D60FB00C9883D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA420773299D60FB00C9883D /* DUNPprijava */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA420772299D60FB00C9883D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA42077F299D60FC00C9883D /* Preview Assets.xcassets in Resources */,
+				BA42077C299D60FC00C9883D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2087E82E66C86E6CDC32E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DUNPprijava-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB216B60D1B1F5EF74DDF27F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DUNPprijava/Pods-DUNPprijava-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DUNPprijava/Pods-DUNPprijava-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DUNPprijava/Pods-DUNPprijava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA420770299D60FB00C9883D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA36028829DCD77600526817 /* PrijavljeniIspiti.swift in Sources */,
+				BA3B5FAC299E9B6600E1092D /* PrijavaIspita.swift in Sources */,
+				BA797CB829D5B9F30015536A /* Predmet.swift in Sources */,
+				BA420787299D611F00C9883D /* Register.swift in Sources */,
+				BA80531B2A04ED7C00DF2B5E /* PrijavaEdit.swift in Sources */,
+				BA797CCA29D73D800015536A /* Prijava.swift in Sources */,
+				BA42077A299D60FB00C9883D /* ContentView.swift in Sources */,
+				BA420778299D60FB00C9883D /* DUNPprijavaApp.swift in Sources */,
+				BA80531F2A0531D800DF2B5E /* PotvrdaRegistracija.swift in Sources */,
+				BA92E42229DD9773001C1173 /* DefaultScreen.swift in Sources */,
+				BA797CBA29D5BA230015536A /* RegisterInfo.swift in Sources */,
+				BA80531D2A0508B700DF2B5E /* PregledPolozenihPredmeta.swift in Sources */,
+				BA61698729FECC07002CA159 /* DodavanjePredmeta.swift in Sources */,
+				BA61698B2A03F528002CA159 /* UnosOcenaDetailed.swift in Sources */,
+				BA94A5DC29A41696006C2C64 /* Welcome.swift in Sources */,
+				BA420789299D622A00C9883D /* Login.swift in Sources */,
+				BA1BA28C29D07D400023587E /* UrlHelper.swift in Sources */,
+				BA797CC829D5EAD50015536A /* Smer.swift in Sources */,
+				BA797CBC29D5BA350015536A /* LoginInfo.swift in Sources */,
+				BA6169912A03F9D1002CA159 /* StudentPrijavaFullData.swift in Sources */,
+				BA797CD329DB7A400015536A /* UserSettings.swift in Sources */,
+				BA797CD129D9B81F0015536A /* PrijavaIspitaInfo.swift in Sources */,
+				BA797CCD29D86A650015536A /* Services.swift in Sources */,
+				BA92E42A29DDAA06001C1173 /* Smerovi.swift in Sources */,
+				BA92E42429DDA14C001C1173 /* DefaultScreenSluzba.swift in Sources */,
+				BA6169892A03F34B002CA159 /* UnosOcenaSluzba.swift in Sources */,
+				BA797CC129D5D25F0015536A /* DodavanjeSmera.swift in Sources */,
+				BA797CC629D5D5CB0015536A /* Placeholder.swift in Sources */,
+				BA92E42629DDA164001C1173 /* DefaultScreenStudent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA420780299D60FC00C9883D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA420781299D60FC00C9883D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA420783299D60FC00C9883D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FA5FA97BF80B261C729806 /* Pods-DUNPprijava.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DUNPprijava/Preview Content\"";
+				DEVELOPMENT_TEAM = 469723TP5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalilapram.DUNPprijava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA420784299D60FC00C9883D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EACC8822B7CA98C2DA73C66B /* Pods-DUNPprijava.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DUNPprijava/Preview Content\"";
+				DEVELOPMENT_TEAM = 469723TP5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalilapram.DUNPprijava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA42076F299D60FB00C9883D /* Build configuration list for PBXProject "DUNPprijava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA420780299D60FC00C9883D /* Debug */,
+				BA420781299D60FC00C9883D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA420782299D60FC00C9883D /* Build configuration list for PBXNativeTarget "DUNPprijava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA420783299D60FC00C9883D /* Debug */,
+				BA420784299D60FC00C9883D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA42076C299D60FB00C9883D /* Project object */;
+}
