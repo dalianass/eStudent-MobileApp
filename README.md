@@ -1,4 +1,3 @@
-#eStudent-MobileApp
 Mobile app designed for students to apply for exams and track their grades, while student service staff can use it to add new courses, include subjects in specific courses, update student's passed exams with grades, and enable or disable the exam application option for students.
 ![Annotation 2023-09-03 005414](https://github.com/dalianass/eStudent-MobileApp/assets/71512704/5bafe262-48f2-42f0-9104-c42d20fe496f)
 ![Annotation 2023-09-03 004520](https://github.com/dalianass/eStudent-MobileApp/assets/71512704/731beca3-ef60-49fd-aca6-d8a27e3dbc85)
